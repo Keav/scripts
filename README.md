@@ -1,6 +1,13 @@
 # Git Bash Custom Config Files
 
-By default, bash config files are stored in and read from `C:\Users\Username\` aka `~/`
+By default, bash config files are stored in and read from:
+```
+C:\Users\Username\
+```
+aka
+```
+~/
+```
 
 To ease backup and distribution of these files, create another folder somehwere e.g. `c:/scripts/` or `.../dropbox/scripts/` and move the files to this new location.
 
