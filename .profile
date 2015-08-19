@@ -16,3 +16,36 @@ then
 fi
 PS1="$PS1"'\[\033[0m\]\n'      # change color
 PS1="$PS1"'$ '                 # prompt: always $
+
+# ===================
+# Custom alias's
+# ===================
+
+# Update our live terminal with changes made to this file
+alias reload="source ~/.profile"
+
+# Always display additional information when doiing a standard 'ls'
+# alias ls="ls -la -G"
+
+# Make 'php' use the MAMP version rather than the system default
+alias php='C:/wamp/bin/php/php5.5.12/php'
+
+# Start and login to our MAMP MySQL terminal
+alias mysql='C:/wamp/bin/mysql/mysql5.6.17/bin/mysql -uroot -p'
+
+# Use specific version of Python
+alias py='C:/Python34/python'
+
+# ====================
+# Custom git alias's
+# ====================
+
+# Show all our local branches
+alias gb="git branch"
+
+# Shortcut for 'git status'
+alias st="git status"
+
+# Delete all local branches that have been merged and deleted on GutHub
+alias rmlmb="git branch --merged | grep -v "\*" | xargs -n 1 git branch -d"
+
