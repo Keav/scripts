@@ -1,5 +1,7 @@
 # Git Bash Custom Config Files
 
+## For OS X
+
 By default, bash config files are stored in and read from:
 ```
 C:\Users\Username\
