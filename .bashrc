@@ -2,7 +2,7 @@
 
 web()
 {
-	cd "d:\_Developer\Web";
+	cd "c:\_Developer\Web";
 }
 
 subl()
@@ -12,7 +12,7 @@ subl()
 
 keav()
 {
-	cd "d:\_Developer\Web\Projects\keav";
+	cd "c:\_Developer\Web\Projects\keav";
 	"'C:\Program Files\Sublime Text 3\sublime_text.exe' keav.net.sublime-project &"
     grunt &
 }

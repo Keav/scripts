@@ -1,3 +1,7 @@
+# =============================
+# Windows BASH custom profile
+# =============================
+
 # always list in long format
 alias ls='ls -la --color'
 
