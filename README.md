@@ -11,7 +11,7 @@ aka
 ~/
 ```
 
-To ease backup and distribution of these files, create another folder somehwere e.g. `c:/scripts/` or `.../dropbox/scripts/` and move the files to this new location.
+To ease backup and distribution of these files, create another folder somehwere e.g. `/scripts/` or `/dropbox/scripts/` and move the files to this new location.
 
 Then configure symlinks to point from the default location to the new, e.g.:
 
