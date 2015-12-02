@@ -15,7 +15,9 @@ PS1="$PS1"'\w'                 # current working directory
 if test -z "$WINELOADERNOEXEC"
 then
     PS1="$PS1"'\[\033[33m\]'   # change color
-    PS1="$PS1"'$(__git_ps1)'   # bash function
+    # PS1="$PS1"'$(__git_ps1)'   # bash function
+    PS1="$PS1"'$(__git_ps1)'$'\n'   # bash function
+    # PS1="\n${BBlack}\u@\h ${BRed}\w${BYellow}\$(__git_ps1 ' { %s }')${BGreen}"$'\n$ '
 
 fi
 PS1="$PS1"'\[\033[0m\]\n'      # change color
